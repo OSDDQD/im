@@ -1,6 +1,9 @@
 <?php
 class Mapper
 {
+    const TYPE_DIRECT = 'D';
+    const TYPE_PUBLIC = 'P';
+
     private $vb;
 
     public function __construct()
@@ -50,6 +53,16 @@ class Mapper
     }
 
     private function checkChannel()
+    {
+
+    }
+
+    private function increaseUnread($channelId)
+    {
+
+    }
+
+    public function markChannel($channelId)
     {
 
     }
